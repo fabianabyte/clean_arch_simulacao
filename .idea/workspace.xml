@@ -4,52 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e118cfdd-47a0-46ef-bf53-a3fdaff779ce" name="Changes" comment="Inserção do exemplo CA-layers-inside-feature-module">
-      <change afterPath="$PROJECT_DIR$/controller/src/main/java/com/br/simulacao/veiculos/SimulacaoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/EntidadeIdAb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/pessoa/ContatoEntidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/pessoa/PessoaEntidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/simulacao/ProdutoEntidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/simulacao/SimulacaoEntidade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/mapper/PessoaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/mapper/SimulacaoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/pessoa/Contato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/pessoa/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/pessoa/TipoPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/simulacao/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/simulacao/Simulacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/simulacao/TipoProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/cliente/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/cliente/ClientePessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/cliente/ClientePessoaJuridica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/identificacao/Identificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/identificacao/IdentificacaoCNPJ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/identificacao/IdentificacaoCPF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/identificacao/TipoIdentificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/configuration/mapper/MapperConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/configuration/openapi/SpringFoxConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/src/main/java/com/br/simulacao/controller/SimulacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/com/br/simulacao/imoveis/SimulacaoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/EntidadeIdAb.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/EntidadeIdAb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/pessoa/ContatoEntidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/pessoa/ContatoEntidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/pessoa/PessoaEntidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/pessoa/PessoaEntidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/simulacao/ProdutoEntidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/simulacao/ProdutoEntidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/simulacao/SimulacaoEntidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/simulacao/SimulacaoEntidade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/mapper/PessoaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/mapper/PessoaMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/mapper/SimulacaoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/mapper/SimulacaoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/pessoa/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/pessoa/Contato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/pessoa/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/pessoa/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/pessoa/TipoPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/pessoa/TipoPessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/simulacao/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/simulacao/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/simulacao/Simulacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/simulacao/Simulacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/simulacao/TipoProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/simulacao/TipoProduto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/cliente/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/cliente/ClientePessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/cliente/ClientePessoaFisica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/cliente/ClientePessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/cliente/ClientePessoaJuridica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/identificacao/Identificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/identificacao/Identificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/identificacao/IdentificacaoCNPJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/identificacao/IdentificacaoCNPJ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/identificacao/IdentificacaoCPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/identificacao/IdentificacaoCPF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/identificacao/TipoIdentificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/identificacao/TipoIdentificacao.java" afterDir="false" />
-    </list>
+    <list default="true" id="e118cfdd-47a0-46ef-bf53-a3fdaff779ce" name="Changes" comment="Inserção do exemplo CA-layers-inside-feature-module" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676328229056</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Inserção do exemplo CA-layers-inside-feature-module">
+      <created>1676328385958</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676328385959</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

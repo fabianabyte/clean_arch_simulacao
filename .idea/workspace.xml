@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e118cfdd-47a0-46ef-bf53-a3fdaff779ce" name="Changes" comment="Inserção do exemplo CA-layers-inside-feature-module">
+      <change afterPath="$PROJECT_DIR$/controller/src/main/java/com/br/simulacao/veiculos/SimulacaoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/EntidadeIdAb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/pessoa/ContatoEntidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/pessoa/PessoaEntidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/simulacao/ProdutoEntidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/entidade/simulacao/SimulacaoEntidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/mapper/PessoaMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/mapper/SimulacaoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/pessoa/Contato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/pessoa/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/pessoa/TipoPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/simulacao/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/simulacao/Simulacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/api/simulacao/TipoProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/cliente/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/cliente/ClientePessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/cliente/ClientePessoaJuridica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/identificacao/Identificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/identificacao/IdentificacaoCNPJ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/identificacao/IdentificacaoCPF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos/model/identificacao/TipoIdentificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/configuration/mapper/MapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/configuration/openapi/SpringFoxConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/src/main/java/com/br/simulacao/controller/SimulacaoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/controller/src/main/java/com/br/simulacao/imoveis/SimulacaoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/EntidadeIdAb.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/EntidadeIdAb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/pessoa/ContatoEntidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/pessoa/ContatoEntidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/pessoa/PessoaEntidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/pessoa/PessoaEntidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/simulacao/ProdutoEntidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/simulacao/ProdutoEntidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/entidade/simulacao/SimulacaoEntidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/entidade/simulacao/SimulacaoEntidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/mapper/PessoaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/mapper/PessoaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/mapper/SimulacaoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/mapper/SimulacaoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/pessoa/Contato.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/pessoa/Contato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/pessoa/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/pessoa/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/pessoa/TipoPessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/pessoa/TipoPessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/simulacao/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/simulacao/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/simulacao/Simulacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/simulacao/Simulacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/api/simulacao/TipoProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/api/simulacao/TipoProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/cliente/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/cliente/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/cliente/ClientePessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/cliente/ClientePessoaFisica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/cliente/ClientePessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/cliente/ClientePessoaJuridica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/identificacao/Identificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/identificacao/Identificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/identificacao/IdentificacaoCNPJ.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/identificacao/IdentificacaoCNPJ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/identificacao/IdentificacaoCPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/identificacao/IdentificacaoCPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/model/identificacao/TipoIdentificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis/model/identificacao/TipoIdentificacao.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="CA-one-layer-per-module" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LhVLEKEvECjgwKAnjku24fpQcb" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "/home/fabianaalencar/IdeaProjects/clean_arch_simulacao/domain/src/main/java/com/br/simulacao/imoveis",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis" />
+      <recent name="$PROJECT_DIR$/controller/src/main/java/com/br/simulacao/veiculos" />
+      <recent name="$PROJECT_DIR$/controller/src/main/java/com/br/simulacao/imoveis" />
+      <recent name="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/configuration/veiculos" />
+      <recent name="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/configuration/imoveis" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/veiculos" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e118cfdd-47a0-46ef-bf53-a3fdaff779ce" name="Changes" comment="" />
+      <created>1676323243561</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676323243561</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Inserção dos arquivos do projeto DDD Tático para serem utilizados nos conceitos de clean architect.">
+      <created>1676324831111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676324831111</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Inserção dos arquivos do projeto DDD Tático para serem utilizados nos conceitos de clean architect.">
+      <created>1676324877487</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676324877487</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Atualização de documentação do projeto.">
+      <created>1676325989236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676325989236</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Ajustes para apreseção do tipo CA-layers-single-module - Camadas em um único módulo">
+      <created>1676326320827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676326320827</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Correção de documentação.">
+      <created>1676326350059</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676326350059</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Inserção do exemplo CA-one-layer-per-module - Uma camada por módulo">
+      <created>1676326887277</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676326887277</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Inserção do exemplo CA-one-layer-per-module -">
+      <created>1676327618935</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676327618935</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Inserção do exemplo CA-layers-inside-feature-module">
+      <created>1676328229056</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676328229056</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Inserção dos arquivos do projeto DDD Tático para serem utilizados nos conceitos de clean architect." />
+    <MESSAGE value="Atualização de documentação do projeto." />
+    <MESSAGE value="Ajustes para apreseção do tipo CA-layers-single-module - Camadas em um único módulo" />
+    <MESSAGE value="Correção de documentação." />
+    <MESSAGE value="Inserção do exemplo CA-one-layer-per-module - Uma camada por módulo" />
+    <MESSAGE value="Inserção do exemplo CA-one-layer-per-module -" />
+    <MESSAGE value="Inserção do exemplo CA-layers-inside-feature-module" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserção do exemplo CA-layers-inside-feature-module" />
+  </component>
+</project>

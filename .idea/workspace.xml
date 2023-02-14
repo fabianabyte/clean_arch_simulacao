@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e118cfdd-47a0-46ef-bf53-a3fdaff779ce" name="Changes" comment="Inserção do exemplo CA-layers-inside-feature-module" />
+    <list default="true" id="e118cfdd-47a0-46ef-bf53-a3fdaff779ce" name="Changes" comment="ajuste em .gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/imoveis/mapper/MapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/imoveis/openapi/SpringFoxConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/veiculos/mapper/MapperConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration/src/main/java/com/br/simulacao/veiculos/openapi/SpringFoxConfig.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +44,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2LhVLEKEvECjgwKAnjku24fpQcb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,18 +52,18 @@
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "/home/fabianaalencar/IdeaProjects/clean_arch_simulacao/domain/src/main/java/com/br/simulacao/imoveis",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/fabianaalencar/IdeaProjects/clean_arch_simulacao/domain/src/main/java/com/br/simulacao/imoveis&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/domain/src/main/java/com/br/simulacao/imoveis" />

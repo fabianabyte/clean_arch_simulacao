@@ -14,27 +14,27 @@ Baseando-se no artigo: [Multiple ways of defining Clean Architecture layers](htt
 ***
 
 A solução desse código foi feita com base na jornada:
-![simulacao-jornada.png](imagens%2Fsimulacao-jornada.png)
+![simulacao-jornada.png](imagens/simulacao-jornada.png)
 
 Nesse código fonte você irá encontrar as seguintes modelagens implementadas:
 
 ### Domínio
-![simulacao-dominio.png](imagens%2Fsimulacao-dominio.png)
+![simulacao-dominio.png](imagens/simulacao-dominio.png)
 
 ### Agregados
-![simulacao-agregados.png](imagens%2Fsimulacao-agregados.png)
+![simulacao-agregados.png](imagens/simulacao-agregados.png)
 
 ### Entidades
-![simulacao-entidades.png](imagens%2Fsimulacao-entidades.png)
+![simulacao-entidades.png](imagens/simulacao-entidades.png)
 
 ### Fábricas
-![simulacao-fabricaCase.png](imagens%2Fsimulacao-fabricaCase.png)
+![simulacao-fabricaCase.png](imagens/simulacao-fabricaCase.png)
 
 ### Módulos
-![simulacao-modulos.png](imagens%2Fsimulacao-modulos.png)
+![simulacao-modulos.png](imagens/simulacao-modulos.png)
 
 ### Repositórios
-![simulacao-repositorios.png](imagens%2Fsimulacao-repositorios.png)
+![simulacao-repositorios.png](imagens/simulacao-repositorios.png)
 
 # Run
 ***

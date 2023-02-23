@@ -6,9 +6,13 @@ Projeto para colocar em prática os conceitos de Clean Architecture para dar con
 ***
 Baseando-se no artigo: [Multiple ways of defining Clean Architecture layers](https://proandroiddev.com/multiple-ways-of-defining-clean-architecture-layers-bbb70afa5d4a) temos 4 branches que exemplificam maneiras possíveis de aplicar os conceitos de clean architecture em seus projetos.
 1. CA-layers-single-module - Camadas em um único módulo
+![CleanArchi-CA layers in a single module.png](imagens%2FCleanArchi-CA%20layers%20in%20a%20single%20module.png)
 2. CA-one-layer-per-module - Uma camada por módulo
+![CleanArchi-One CA layer per module.png](imagens%2FCleanArchi-One%20CA%20layer%20per%20module.png)
 3. CA-layers-inside-feature-module - Camadas em um módulo de feature
+![CleanArchi- CA layers inside the feature module.png](imagens%2FCleanArchi-%20CA%20layers%20inside%20the%20feature%20module.png)
 4. CA-layers-per-feature-module - Camadas nos módulos das features
+![CleanArchi-CA layers per feature modules.png](imagens%2FCleanArchi-CA%20layers%20per%20feature%20modules.png)
 
 # Simulacao
 ***

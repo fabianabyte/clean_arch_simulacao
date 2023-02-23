@@ -2,8 +2,11 @@ package com.br.simulacao.domain.model.cliente;
 
 import com.br.simulacao.domain.model.identificacao.Identificacao;
 
-public interface Cliente {
-    public void validar() throws Exception;
+import java.time.LocalDate;
 
-    public Identificacao getIdentificacao();
+public interface Cliente {
+    void validar() throws Exception;
+    String getNomeOuRazaoSocial();
+    LocalDate getDataNascimentoOuFundacao();
+    Identificacao getIdentificacao();
 }

@@ -1,7 +1,8 @@
 package com.br.simulacao.utils.pessoa;
 
-import com.br.simulacao.domain.entidade.pessoa.PessoaEntidade;
-import com.br.simulacao.domain.model.identificacao.TipoIdentificacao;
+import com.br.simulacao.application.utils.pessoa.PessoaFactory;
+import com.br.simulacao.application.domain.model.identificacao.TipoIdentificacao;
+import com.br.simulacao.dataprovider.model.entidade.pessoa.PessoaEntidade;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

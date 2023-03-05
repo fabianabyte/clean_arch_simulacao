@@ -1,7 +1,7 @@
 package com.br.simulacao;
 
-import com.br.simulacao.controller.SimulacaoController;
-import com.br.simulacao.service.SimulacaoService;
+import com.br.simulacao.entrypoint.controller.SimulacaoController;
+import com.br.simulacao.dataprovider.service.SimulacaoDataProviderService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,12 +14,12 @@ class SimulacaoApplicationTests {
 	private SimulacaoController simulacaoController;
 
 	@Autowired
-	private SimulacaoService simulacaoService;
+	private SimulacaoDataProviderService simulacaoDataProviderService;
 
 	@Test
 	void contextLoads() {
 		assertThat(simulacaoController).isNotNull();
-		assertThat(simulacaoService).isNotNull();
+		assertThat(simulacaoDataProviderService).isNotNull();
 	}
 
 }

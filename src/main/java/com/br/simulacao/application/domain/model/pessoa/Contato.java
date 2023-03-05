@@ -1,0 +1,17 @@
+package com.br.simulacao.application.domain.model.pessoa;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Builder
+@AllArgsConstructor
+public class Contato {
+    private String logradouro;
+    private String email;
+    private String telefone;
+
+}

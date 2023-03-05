@@ -1,8 +1,9 @@
 package com.br.simulacao.utils.cliente;
 
-import com.br.simulacao.domain.model.cliente.Cliente;
-import com.br.simulacao.domain.model.identificacao.Identificacao;
-import com.br.simulacao.utils.identificacao.IdentificacaoFactory;
+import com.br.simulacao.application.utils.cliente.ClienteFactory;
+import com.br.simulacao.application.domain.model.cliente.Cliente;
+import com.br.simulacao.application.domain.model.identificacao.Identificacao;
+import com.br.simulacao.application.utils.identificacao.IdentificacaoFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;

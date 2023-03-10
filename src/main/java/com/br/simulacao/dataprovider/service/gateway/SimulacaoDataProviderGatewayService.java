@@ -1,4 +1,4 @@
-package com.br.simulacao.dataprovider;
+package com.br.simulacao.dataprovider.service.gateway;
 
 import com.br.simulacao.application.domain.model.simulacao.Simulacao;
 import com.br.simulacao.application.gateway.SimulacaoGateway;
@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 @Service
 @RequiredArgsConstructor
-public class SimulacaoDataProvider implements SimulacaoGateway {
+public class SimulacaoDataProviderGatewayService implements SimulacaoGateway {
     @NonNull
     SimulacaoDataProviderService simulacaoDataProviderService;
 

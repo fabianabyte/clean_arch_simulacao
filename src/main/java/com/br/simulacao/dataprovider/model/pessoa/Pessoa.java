@@ -1,5 +1,6 @@
 package com.br.simulacao.dataprovider.model.pessoa;
 
+import com.br.simulacao.dataprovider.model.identificacao.TipoIdentificacao;
 import lombok.*;
 
 import java.time.LocalDate;
@@ -16,5 +17,5 @@ public class Pessoa {
     private LocalDate dataNascimento;
     private Contato contato;
     private String identificacao;
-    private TipoPessoa tipoPessoa;
+    private TipoIdentificacao tipoIdentificacao;
 }

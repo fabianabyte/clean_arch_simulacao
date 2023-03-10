@@ -1,9 +1,9 @@
 package com.br.simulacao.application.utils.pessoa;
 
+import com.br.simulacao.application.domain.model.pessoa.TipoPessoa;
 import com.br.simulacao.application.utils.identificacao.IdentificacaoFactory;
 import com.br.simulacao.dataprovider.model.entidade.pessoa.PessoaEntidade;
 import com.br.simulacao.application.domain.model.identificacao.TipoIdentificacao;
-import com.br.simulacao.application.domain.model.api.pessoa.TipoPessoa;
 
 public class PessoaFactory {
     private PessoaFactory(){}

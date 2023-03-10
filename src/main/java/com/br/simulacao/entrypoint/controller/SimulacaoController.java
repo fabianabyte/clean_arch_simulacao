@@ -1,9 +1,11 @@
 package com.br.simulacao.entrypoint.controller;
 
 
+import com.br.simulacao.application.usecases.exception.SimulacaoNaoEncontradaException;
+import com.br.simulacao.application.usecases.exception.SimulacaoRejeitadaException;
 import com.br.simulacao.dataprovider.SimulacaoUseCaseService;
 import com.br.simulacao.dataprovider.model.simulacao.Simulacao;
-import com.br.simulacao.dataprovider.service.SimulacaoDataProviderService;
+import com.br.simulacao.dataprovider.presenters.SimulacaoPresenter;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -20,20 +22,16 @@ import java.util.List;
 public class SimulacaoController {
 
     @NonNull
-    SimulacaoDataProviderService simulacaoDataProviderService;
-    @NonNull
     SimulacaoUseCaseService simulacaoUseCaseService;
+    @NonNull
+    SimulacaoPresenter simulacaoPresenter;
 
     @GetMapping("/")
     public ResponseEntity<List<Simulacao>> obterTodasSimulacoes() {
         try {
-            List<Simulacao> simulacoes = simulacaoUseCaseService.obterTodasSimulacoes();
-
-            if (simulacoes.isEmpty()) {
-                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-            }
-
-            return new ResponseEntity<>(simulacoes, HttpStatus.OK);
+            return new ResponseEntity<>(simulacaoUseCaseService.obterTodasSimulacoes(), HttpStatus.OK);
+        } catch (SimulacaoNaoEncontradaException e) {
+            return simulacaoPresenter.enviarErroSimulacaoNaoEncontrada();
         } catch (Exception e) {
             log.error(e.toString());
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
@@ -43,13 +41,9 @@ public class SimulacaoController {
     @GetMapping("/{id_pessoa}")
     public ResponseEntity<List<Simulacao>> obterSimulacoesPessoa(@PathVariable(name = "id_pessoa") String idPessoa) {
         try {
-            List<Simulacao> simulacoes = simulacaoUseCaseService.obterSimulacoesPorPessoa(idPessoa);
-
-            if (simulacoes.isEmpty()) {
-                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-            }
-
-            return new ResponseEntity<>(simulacoes, HttpStatus.OK);
+            return new ResponseEntity<>(simulacaoUseCaseService.obterSimulacoesPorPessoa(idPessoa), HttpStatus.OK);
+        } catch (SimulacaoNaoEncontradaException e) {
+            return simulacaoPresenter.enviarErroSimulacaoNaoEncontrada();
         } catch (Exception e) {
             log.error(e.toString());
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
@@ -60,6 +54,9 @@ public class SimulacaoController {
     public ResponseEntity<Simulacao> criarSimulacao(@RequestBody Simulacao simulacao) {
         try {
             return new ResponseEntity<>(simulacaoUseCaseService.criarSimulacao(simulacao), HttpStatus.CREATED);
+        } catch (SimulacaoRejeitadaException e) {
+            log.error(e.toString());
+            return simulacaoPresenter.enviarErroAoGravarSimulacao(e.getMessage());
         } catch (Exception e) {
             log.error(e.toString());
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);

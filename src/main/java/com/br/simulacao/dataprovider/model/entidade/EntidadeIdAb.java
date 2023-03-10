@@ -1,6 +1,5 @@
 package com.br.simulacao.dataprovider.model.entidade;
 
-import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,9 +11,9 @@ import java.io.Serializable;
 
 @MappedSuperclass
 @Getter
+@Setter
 public class EntidadeIdAb implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Setter(AccessLevel.NONE)
     private Integer id;
 }

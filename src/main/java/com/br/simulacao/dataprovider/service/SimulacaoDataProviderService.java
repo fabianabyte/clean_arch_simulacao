@@ -1,17 +1,19 @@
 package com.br.simulacao.dataprovider.service;
 
-import com.br.simulacao.infraestructure.configuration.mapper.MapperConfig;
 import com.br.simulacao.dataprovider.model.simulacao.Simulacao;
 import com.br.simulacao.dataprovider.repository.SimulacaoRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.br.simulacao.infraestructure.configuration.mapper.MapperConfig;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 @Service
+@RequiredArgsConstructor
 public class SimulacaoDataProviderService {
-    @Autowired
+    @NonNull
     SimulacaoRepository simulacaoRepository;
 
     public Simulacao criarSimulacao(Simulacao simulacao){
